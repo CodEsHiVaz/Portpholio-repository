@@ -3,7 +3,6 @@ import CustomNav from "../Components/NavBar";
 import { Container, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import CodingSvg from "../Icons/coding";
 import useWindowDimensions from "../utils/dimensionHelper";
 import {
   faEnvelopeSquare,
@@ -97,7 +96,14 @@ const Home = ({ history }) => {
               </div>
             </div>
             <div className="w-50 my-auto d-none d-md-block">
-              <CodingSvg />
+              <img
+                style={{
+                  width: "70%",
+                  marginLeft: "15%",
+                }}
+                src="profile.png"
+                alt=""
+              />
             </div>
           </div>
         </Container>
