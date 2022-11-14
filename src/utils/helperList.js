@@ -8,8 +8,16 @@ export const showFrontend = [
     src: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png",
   },
   {
+    label: "Javascript",
+    src: "https://img.icons8.com/color/144/000000/javascript.png",
+  },
+  {
     label: "React",
     src: "https://img.icons8.com/color/144/000000/react-native.png",
+  },
+  {
+    label: "typescript",
+    src: "https://img.icons8.com/color/144/000000/typescript.png",
   },
   {
     label: "Redux",
@@ -61,6 +69,10 @@ export const soft_tools = [
   {
     label: "Git",
     src: "https://img.icons8.com/color/144/000000/git.png",
+  },
+  {
+    label: "figma",
+    src: "https://img.icons8.com/color/144/000000/figma.png",
   },
   {
     label: "npm",
