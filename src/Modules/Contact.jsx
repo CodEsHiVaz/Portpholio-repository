@@ -80,7 +80,7 @@ const Contact = () => {
             className="contact-btns bg-customBlue mr-2 shadow border-0 py-1"
             onClick={() =>
               window.open(
-                "https://www.linkedin.com/in/shivaji-zirpe-92650919b/",
+                "https://www.linkedin.com/in/shivaji-zirpe/",
                 "_blank"
               )
             }

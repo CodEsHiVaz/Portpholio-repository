@@ -68,7 +68,7 @@ const Home = ({ history }) => {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://www.linkedin.com/in/shivaji-zirpe-92650919b/"
+                      href="https://www.linkedin.com/in/shivaji-zirpe"
                       className="color-customBlue p-0 mr-3"
                     >
                       <FontAwesomeIcon size="2x" icon={faLinkedin} />
