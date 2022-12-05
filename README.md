@@ -1,4 +1,4 @@
-This project is my portfolio site [s8sachin.github.io](https://s8sachin.github.io)
+
 
 ## Project information
 
