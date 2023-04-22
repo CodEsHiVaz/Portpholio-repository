@@ -109,6 +109,19 @@ const Contact = () => {
             <GmailSvg fillColor="#8d81a5" style={{ width: 16 }} />
             <span>Mail</span>
           </Button>
+
+          <Button
+            className="contact-btns bg-customBlue shadow border-0 py-1 px-2 mx-2"
+            onClick={() =>
+              window.open(
+                'tel:+918007800614',
+                "_blank"
+              )
+            }
+          >
+            <img src="call_icon.png" height={'20px'} alt="" />
+            <span>Call</span>
+          </Button>
         </div>
       </Container>
     </>

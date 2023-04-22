@@ -7,9 +7,19 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
-   useEffect(() => {
-     document.title = "Shivaji Zirpe | Projects";
-   });
+  const getstats = async () => {
+    console.log("Getting");
+    const res = await fetch(
+      `https://github-readme-stats.vercel.app/api?username=CodEsHiVaz&show_icons=true&theme=radical`
+    );
+    const data = await res.json();
+
+    console.log("getstats  data:", data);
+  };
+  useEffect(() => {
+    getstats();
+    document.title = "Shivaji Zirpe | Projects";
+  });
   return (
     <>
       <CustomNav />
@@ -58,6 +68,18 @@ const Projects = () => {
             </Row>
           </Fragment>
         ))}
+
+        <div  className="text-center">
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=CodEsHiVaz&show_icons=true&theme=radical"
+            alt=""
+          />
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com/?user=CodEsHiVaz&theme=radical"
+            alt=""
+          />
+        </div>
+     
       </Container>
     </>
   );

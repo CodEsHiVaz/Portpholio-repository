@@ -52,6 +52,16 @@ const CustomNav = () => {
                 </NavLink>
               </Nav.Link>
             ))}
+            
+       <a
+              href={"Shivaji Zirpe Resume.pdf"}
+              download={"Shivaji Zirpe Resume.pdf"}
+              rel="noreferrer"
+              className="color-customBlue w-100 mt-2 text-decoration-none text-center align-middle "
+              activeClassName="font-weight-bold"
+            >
+              Resume
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
