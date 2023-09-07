@@ -55,7 +55,7 @@ const CustomNav = () => {
             
        <a
               href={""}
-              download={"Shivaji Zirpe Resume.pdf"}
+              download={""}
               rel="noreferrer"
               className="color-customBlue w-100 mt-2 text-decoration-none text-center align-middle "
               activeClassName="font-weight-bold"
